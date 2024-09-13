@@ -1,6 +1,6 @@
 # Graphic Design Website Homepage
 
-![Graphic Design Logo](path/to/logo.png)  <!-- Optional: Replace with your logo -->
+
 
 ## Overview
 
@@ -19,10 +19,10 @@ To view the homepage locally:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
+git clone https://github.com/yourusername/your-repository-name.git ```
 
 
-Directory Structure
+## Directory Structure
 index.html: The main HTML file for the homepage.
 styles.css: Contains the CSS styling for the homepage.
 Usage
