@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+html, body, .main {
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    padding: 2vw;
+    display: flex;
+    color: #242323;
+    align-items: center;
+    justify-content: space-between;
+     /* background-color: red; */
+    
+}
+
+.nav2 {
+    display: flex;
+    color: #2f2f2f;
+    align-items: center;
+    gap: 40px;
+   
+    /* background-color: red; */
+}
+
+.nav2 span {
+    color: #beb5b5;
+}
+.nav2 h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.SecNav {
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    gap: 80px;
+}
+
+.SecNav h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* content section starts from here */
+
+.jadu {
+    width: 100%;
+    height: calc(100% - 134.5px);
+    /* background-color: red; */
+}
+
+.text {
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(60, 0, 255); */
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.text::-webkit-scrollbar {
+    background-color: transparent;
+
+    height: 7px;
+}
+
+.text::-webkit-scrollbar-thumb {
+    background-color: rgb(241, 185, 82);
+    
+}
+
+
+.elem {
+    /* border: 2px solid rgb(151, 151, 28); */
+    flex-shrink: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.elem h1 {
+    font-weight: 400;
+    color: #2f2f2f;
+    font-size: 60px;
+
+}
+
+/* image section starts from here */
+.image {
+    height: 60%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    overflow-x: auto;
+
+
+}
+
+.image::-webkit-scrollbar {
+    display: none;
+}
+
+.image img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.secondimg {
+    object-position: 0% 0% ;
+}
